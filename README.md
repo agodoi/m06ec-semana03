@@ -144,7 +144,7 @@ Responda:
 * Porque o multímetro só entende sinais senoidais limpos e perfeitos. O sinal que você está medindo é pulsante e não senoidal.
 
 
-## Prática (6) - Simulação um Retificador de Onda Completa no Tinkercad
+## IR ALÉM [VALENDO CHOCOLATE]: Prática (6) - Simulação um Retificador de Onda Completa no Tinkercad
 
 É muito importante você entender o comportamento das correntes e tensões do circuito abaixo para dominar o funcionamento das fontes de qualquer dispositivo eletrônico.
 
