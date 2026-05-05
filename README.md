@@ -144,16 +144,18 @@ Responda:
 * Porque o multímetro só entende sinais senoidais limpos e perfeitos. O sinal que você está medindo é pulsante e não senoidal.
 
 
-## Prática (6) - Montando um Retificador de Onda Completa
+## Prática (6) - Simulação um Retificador de Onda Completa no Tinkercad
 
 É muito importante você entender o comportamento das correntes e tensões do circuito abaixo para dominar o funcionamento das fontes de qualquer dispositivo eletrônico.
 
-* Monte o circuito abaixo com **MÁXIMO DE CUIDADO!** SE FECHAR CURTO NO SECUNDÁRIO DO TRAFO, VAI FAZER ESTRAGO
-* No lugar da fonte, ligue os fios marcados como secundário. O trafo não tem polaridade nos fios. Ambos fios são iguais.
-* Os 4 diodos são 1N4007
-* O capacitor é eletrolítico de 2.200uF / 25V
-* O regulador de tensão é o 7805
-* O resistor é de 1k ohms (marrom preto vermelho)
+* Por segurança, vamos simular (e não montar) o circuito abaixo. Na prática, seria com o **MÁXIMO DE CUIDADO!** porque SE FECHAR CURTO NO SECUNDÁRIO DO TRAFO, VAI FAZER ESTRAGO;
+* Vamos adotar a fonte como um transformador AC/AC que vocês viram nos autoestudos;
+* Os 4 diodos são 1N4007;
+* O capacitor é eletrolítico de 2.200uF / 25V;
+* O regulador de tensão é o 7805;
+* O resistor é de 1k ohms (marrom preto vermelho).
+
+Caso o seu tempo esteja curto neste ponto da aula, pode aproveitar a montagem: [https://www.tinkercad.com/things/3ecGCy9IR0l-retificador-onda-completa](https://www.tinkercad.com/things/3ecGCy9IR0l-retificador-onda-completa)
 
 <img src="https://github.com/agodoi/m05-semana04/blob/main/imgs/circuito-retificador-final.png" width="600">
 
@@ -161,17 +163,16 @@ Após a montagem...
 
 ### Responda:
 
-**(a)** Insira o multímetro na escala de corrente A~ entre o secundário e uma das entradas da ponde de diodo para medir a corrente total. Quanto tem de corrente total?
+**(a)** Insira o multímetro na escala de corrente A~ entre o gerador de sinais e uma das entradas da ponde de diodo para medir a corrente total. Quanto tem de corrente total?
 
-**(b)** Insira o multímetro na escala de tensão no secundário do trafo, na escala de V~ para medir a tensão total de entrada. Quanto tem de tensão no secundário?
+**(b)** Insira o multímetro na escala de tensão na saída da fonte, na escala de V~ para medir a tensão total de entrada. Quanto tem de tensão?
 
-**(c)** Coloque o CH1 do oscila nos terminais do secundário do trafo e observe a forma de onda. Qual o tipo de onda você está observando?
+**(c)** Coloque o CH1 do oscilas na saída da fonte e observe a forma de onda. Qual o tipo de onda você está observando?
 
-**(d)** Coloque o CH2 do oscila nos terminais do R e observe a forma de onda. Qual o tipo de onda você está observando?
+**(d)** Coloque o CH2 do oscilas nos terminais do R e observe a forma de onda. Qual o tipo de onda você está observando?
 
 **(e)** Remova o C do circuito e observe a forma de onda. Qual o tipo de onda você está observando?
 
 **(f)** Volte o C para o circuito. Insira o multímetro na escala de tensão V~ entre os terminais do R. Quanto tem de tensão?
 
 **(g)** Insira o multímetro na escala de tensão V= após o regulador de tensão. Quanto tem de tensão?
-
